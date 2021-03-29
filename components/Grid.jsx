@@ -6,7 +6,7 @@ import {
   faDiscord,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import { faExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faExclamationCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Grid = () => (
@@ -101,7 +101,7 @@ const Grid = () => (
           <article className="tile is-child notification is-warning commands-tile">
             <p className="tile-title is-size-3">
               <span className="icon">
-                <FontAwesomeIcon icon={faExclamation} />
+                <FontAwesomeIcon icon={faExclamationCircle} />
               </span>
               <span className="ml-3">Comandos</span>
             </p>
