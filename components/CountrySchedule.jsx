@@ -23,17 +23,9 @@ const countryZones = [
   }
 ];
 
-function CountryFlags(props) {
-  console.log(props.countryName);
-  return (
-    <span className={`flag-${props.countryName.trim()}`}></span>
-  );
-}
-
-function CountryTimesListItem(props) {
-  const gmtItem = props.value;
+function CountryTimesListItem({gmtItem}) {
   const countryFlags = gmtItem.countries.split(',').map((country) => {
-    return <CountryFlags countryName={country} />
+    return <span className={`flag-${country.trim()}`}></span>
   });
   return (
     <li>
@@ -47,25 +39,16 @@ function CountryTimesListItem(props) {
   );
 }
 
-function CountryTimeList(props) {
-  const gmtList = props.countryZones;
-  const listItmes =gmtList.map((gmtItem) => {
-    console.log("gmtItem kappa", gmtItem);
-    return <CountryTimesListItem value={gmtItem} />
+const CountrySchedule = () => {
+  const listItmes = countryZones.map((gmtItem) => {
+    return <CountryTimesListItem gmtItem={gmtItem} />
   });
 
   return (
     <ul className="is-size-6 stream-times">
-      {listItmes}
+    {listItmes}
     </ul>
   );
 }
-
-
-
-const CountrySchedule = () => (
-
-  <CountryTimeList countryZones={countryZones} />
-);
 
 export default CountrySchedule;
