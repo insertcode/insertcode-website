@@ -175,6 +175,10 @@ a {
 .stream-times .times {
   flex: 5;
 }
+.stream-next-session-notice {
+  font-size: 10px;
+  margin-top: 1rem;
+}
 
 @media (max-width: 768px) {
   .footer-container {
@@ -182,3 +186,42 @@ a {
     margin-top: 3rem;
   }
 }
+
+
+.flag-chile:before {
+   content: '🇨🇱';
+}
+.flag-argentina:before {
+  content: '🇦🇷';
+}
+.flag-brazil:before {
+   content: '🇧🇷';
+}
+.flag-uruguay:before {
+   content: '🇺🇾';
+}
+.flag-colombia:before {
+   content: '🇨🇴';
+}
+.flag-ecuador:before {
+   content: '🇪🇨';
+}
+.flag-peru:before {
+   content: '🇵🇪';
+}
+.flag-bolivia:before {
+   content: '🇧🇴';
+}
+.flag-paraguay:before {
+  content: '🇵🇾';
+}
+.flag-venezuela:before {
+  content: '🇻🇪';
+}
+.flag-mexico:before {
+  content: '🇲🇽';
+}
+.flag-usa:before {
+  content: '🇺🇸';
+}
+

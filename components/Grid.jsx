@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import CountrySchedule from "./CountrySchedule";
+
 import {
   faTwitch,
   faYoutube,
@@ -8,6 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faExclamationCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Grid = () => (
   <div className="section-grid">
@@ -22,32 +25,7 @@ const Grid = () => (
               <span className="ml-3">Twitch</span>
             </p>
             <p className="is-size-6">En vivo cada Jueves</p>
-            <ul className="is-size-6 stream-times">
-              <li>
-                <span className="flags">🇨🇱🇦🇷🇧🇷🇺🇾</span>
-                <span className="times">9 pm GMT-3</span>
-              </li>
-              <li>
-                <span className="flags">🇨🇴🇪🇨🇵🇪</span>{" "}
-                <span className="times">7 pm GMT-5</span>
-              </li>
-              <li>
-                <span className="flags">🇧🇴🇵🇾🇻🇪</span>
-                <span className="times">8 pm GMT-4</span>
-              </li>
-              <li>
-                <span className="flags">🇲🇽</span>
-                <span className="times">6 pm CST GMT-7</span>
-              </li>
-              <li>
-                <span className="flags">🇪🇸</span>
-                <span className="times">2 am GMT+2</span>
-              </li>
-              <li>
-                <span className="flags">🇺🇸</span>
-                <span className="times">5 pm PDT GMT-7</span>
-              </li>
-            </ul>
+            <CountrySchedule />
           </a>
         </article>
         <article className="tile is-child box discord-tile">
