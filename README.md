@@ -26,12 +26,12 @@ Este es el Sitio Web de Insert Code. Puedes verlo en [https://insertcode.xyz](ht
 
 El sitio debería verse en `http://localhost:3000`
 
-  
+
 ## Contribuciones
 
 Siempre bienvenidas. Si ves algún problema, o quieres ayudarnos con algunas de las cosas pendientes
-de este sitio, por favor revisa los [https://github.com/insertcode/insertcode-website/issues](issues)
-para ver si ya tenemos algo ahí, o [https://github.com/insertcode/insertcode-website/issues/new/choose](agrega uno para que coordinemos).
+de este sitio, por favor revisa los [issues](https://github.com/insertcode/insertcode-website/issues)
+para ver si ya tenemos algo ahí, o [agrega uno para que coordinemos](https://github.com/insertcode/insertcode-website/issues/new/choose).
 
 
 ## Licencia
