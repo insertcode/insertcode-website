@@ -21,8 +21,8 @@ const Grid = () => (
               </span>
               <span className="ml-3">Twitch</span>
             </p>
-            <p className="is-size-6">En vivo cada Jueves</p>
-            <ul className="is-size-6 stream-times">
+            <p className="is-size-5">En vivo cada Jueves</p>
+            <ul className="is-size-5 stream-times">
               <li>
                 <span className="flags">🇨🇱🇦🇷🇧🇷🇺🇾</span>
                 <span className="times">9 pm GMT-3</span>
@@ -62,7 +62,7 @@ const Grid = () => (
               </span>
               <span className="ml-3">Discord</span>
             </p>
-            <p className="is-size-6">Únete a la comunidad</p>
+            <p className="is-size-5">Únete a la comunidad</p>
           </a>
         </article>
       </div>
@@ -79,7 +79,7 @@ const Grid = () => (
               </span>
               <span className="ml-3">YouTube</span>
             </p>
-            <p className="is-size-6">Episodios anteriores</p>
+            <p className="is-size-5">Episodios anteriores</p>
           </a>
         </article>
         <article className="tile is-child box github-tile">
@@ -94,7 +94,7 @@ const Grid = () => (
               </span>
               <span className="ml-3">GitHub</span>
             </p>
-            <p className="is-size-6">Código y proyectos</p>
+            <p className="is-size-5">Código y proyectos</p>
           </a>
         </article>
         <Link href="/commands">
@@ -105,7 +105,7 @@ const Grid = () => (
               </span>
               <span className="ml-3">Comandos</span>
             </p>
-            <p className="is-size-6">Para usar en el stream</p>
+            <p className="is-size-5">Para usar en el stream</p>
           </article>
         </Link>
       </div>
