@@ -11,14 +11,8 @@ const Header = () => (
           className="host-avatar"
         />
         <div className="host-name-social">
-          <h3 className="host-name">Fernando</h3>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://twitter.com/xabadu"
-            className="host-twitter is-size5"
-          >
-            @xabadu
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/xabadu">
+            <h3 className="host-name">@xabadu</h3>
           </a>
         </div>
       </div>
@@ -31,14 +25,12 @@ const Header = () => (
     <div className="header-host host-right is-hidden-mobile">
       <div className="host-info">
         <div className="host-name-social mr-3">
-          <h3 className="host-name">Thiago</h3>
           <a
             target="_blank"
             rel="noreferrer"
             href="https://twitter.com/arroadie"
-            className="host-twitter is-size5"
           >
-            @arroadie
+            <h3 className="host-name">@arroadie</h3>
           </a>
         </div>
         <img
